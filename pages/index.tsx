@@ -1,6 +1,9 @@
+import About from "@/components/About";
 import Block from "@/components/Block";
 import Button from "@/components/Button";
+import Callout from "@/components/Callout";
 import Container from "@/components/Container";
+import Introduction from "@/components/Introduction";
 import Navbar from "@/components/navigation/Navbar/Navbar";
 import NavLink from "@/components/navigation/NavLink/NavLink";
 import NavList from "@/components/navigation/NavList";
@@ -44,6 +47,11 @@ export default function Home() {
             </div>
           </TwoColumnGrid>
         </Block>
+        <Block>
+          <Callout />
+        </Block>
+        <Introduction />
+        <About />
       </Container>
     </>
   );
