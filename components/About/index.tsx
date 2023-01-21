@@ -1,12 +1,22 @@
 import Image from "next/image";
 import Block from "../Block";
 import Button from "../Button";
+import Introduction from "../Introduction";
 import TwoColumnGrid from "../TwoColumnGrid";
 import Styles from "./About.module.scss";
 
 export default function About() {
   return (
     <Block>
+      <Introduction
+        title="INTRODUCTION"
+        subtitle=" TO HYDRA VR"
+        description=" Vitae sapien pellentesque habitant morbi tristique senectus et netus
+            et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit
+            amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra
+            aliquet eget sit amet tellus. Ornare lectus sit amet est placerat
+            in. Lectus magna fringilla urna porttitor rhoncus vitae."
+      />
       <TwoColumnGrid>
         <Image
           src={"/images/boy.svg"}

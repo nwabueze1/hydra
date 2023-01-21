@@ -62,3 +62,14 @@ p {
 h4.light {
   font-weight: 400;
 }
+
+h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+  margin: 1rem 0;
+}

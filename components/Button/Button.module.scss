@@ -11,6 +11,7 @@
   cursor: pointer;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
+  transition: all 0.5s ease;
 }
 
 .button__outlined {
@@ -21,4 +22,8 @@
   border: none;
   color: #373163;
   background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+
+.button:hover {
+  transform: scale(120%);
 }

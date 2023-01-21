@@ -9,6 +9,7 @@ import NavLink from "@/components/navigation/NavLink/NavLink";
 import NavList from "@/components/navigation/NavList";
 import RoundedImage from "@/components/RoundedImage";
 import TwoColumnGrid from "@/components/TwoColumnGrid";
+import WhyBuildWithUs from "@/components/WhyBuildWithHydra";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -50,8 +51,9 @@ export default function Home() {
         <Block>
           <Callout />
         </Block>
-        <Introduction />
+        {/* <Introduction /> */}
         <About />
+        <WhyBuildWithUs />
       </Container>
     </>
   );
