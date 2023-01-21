@@ -3,6 +3,7 @@ import Block from "@/components/Block";
 import Button from "@/components/Button";
 import Callout from "@/components/Callout";
 import Container from "@/components/Container";
+import Footer from "@/components/Footer";
 import HowWeBuild from "@/components/HowWeBuild";
 import Introduction from "@/components/Introduction";
 import JoinHydra from "@/components/JoinHydra";
@@ -62,6 +63,7 @@ export default function Home() {
       <HowWeBuild />
       <Container>
         <JoinHydra></JoinHydra>
+        <Footer />
       </Container>
     </>
   );

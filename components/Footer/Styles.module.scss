@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer_text {
+  padding: 5.9rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  border-top: 1px solid rgb(228, 220, 220);
+}
