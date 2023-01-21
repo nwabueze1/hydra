@@ -28,7 +28,12 @@ export default function JoinHydra() {
           ></div>
           <h4 className="light">let's build your vr experience</h4>
         </header>
-        <form action="">
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            alert("Message has been sent");
+          }}
+        >
           <InlineForm>
             <TextBox type="text" placeholder="First Name" />
             <TextBox type="text" placeholder="last name" />
