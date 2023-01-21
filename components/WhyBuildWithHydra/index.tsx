@@ -34,7 +34,7 @@ lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus v
           description={description}
         />
         <Card
-          image="/images/card1.webp"
+          image="/images/card4.webp"
           title="SELF-CARE"
           description={description}
         />

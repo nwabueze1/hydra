@@ -18,6 +18,7 @@ export default function TechnologiesAndHardware() {
       <div className={Styles.logo_container}>
         {items.map((_x, index) => (
           <Image
+            key={index}
             src={`/images/hydra${index !== 0 ? index + 1 : ""}.svg`}
             height={270}
             width={270}
