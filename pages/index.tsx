@@ -48,7 +48,7 @@ export default function Home() {
               </div>
             </div>
             <div style={{ maxWidth: 560 }}>
-              <RoundedImage src="/images/girl.png" />
+              <RoundedImage src="/images/girl.webp" />
             </div>
           </TwoColumnGrid>
         </Block>

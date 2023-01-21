@@ -24,22 +24,22 @@ lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus v
         }}
       >
         <Card
-          image="/images/card1.svg"
+          image="/images/card1.webp"
           title="SIMULATION"
           description={description}
         />
         <Card
-          image="/images/card2.svg"
+          image="/images/card2.webp"
           title="EDUCATION"
           description={description}
         />
         <Card
-          image="/images/card3.svg"
+          image="/images/card1.webp"
           title="SELF-CARE"
           description={description}
         />
         <Card
-          image="/images/card4.svg"
+          image="/images/card3.webp"
           title="OUTDOOR"
           description={description}
         />

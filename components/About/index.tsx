@@ -19,7 +19,7 @@ export default function About() {
       />
       <TwoColumnGrid>
         <Image
-          src={"/images/boy.png"}
+          src={"/images/boy.webp"}
           height={524}
           width={557}
           alt="boy"
