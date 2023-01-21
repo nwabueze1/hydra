@@ -6,6 +6,7 @@ interface IButtonProps {
   children: ReactNode;
   type: buttonType;
   onClick?: (e: any) => void;
+  submit?: boolean;
 }
 
 export default function Button(props: IButtonProps) {
@@ -17,6 +18,7 @@ export default function Button(props: IButtonProps) {
           ? Styles.button__contained
           : Styles.button__outlined
       }`}
+      type={props.submit ? "submit" : undefined}
     >
       {props.children}
     </button>

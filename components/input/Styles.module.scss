@@ -1,0 +1,39 @@
+.textbox {
+  outline: none;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 40px;
+  //   width: 100%;
+  background: inherit;
+  margin: 1rem;
+}
+
+.textbox::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.fullWidth {
+  width: 100%;
+}
+.inlineForm {
+  display: grid;
+  gap: 1;
+}
+
+@media screen and (min-width: 760px) {
+  .inlineForm {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
