@@ -3,11 +3,13 @@ import Block from "@/components/Block";
 import Button from "@/components/Button";
 import Callout from "@/components/Callout";
 import Container from "@/components/Container";
+import HowWeBuild from "@/components/HowWeBuild";
 import Introduction from "@/components/Introduction";
 import Navbar from "@/components/navigation/Navbar/Navbar";
 import NavLink from "@/components/navigation/NavLink/NavLink";
 import NavList from "@/components/navigation/NavList";
 import RoundedImage from "@/components/RoundedImage";
+import TechnologiesAndHardware from "@/components/TechnologiesAndHardware";
 import TwoColumnGrid from "@/components/TwoColumnGrid";
 import WhyBuildWithUs from "@/components/WhyBuildWithHydra";
 import Head from "next/head";
@@ -54,7 +56,9 @@ export default function Home() {
         {/* <Introduction /> */}
         <About />
         <WhyBuildWithUs />
+        <TechnologiesAndHardware />
       </Container>
+      <HowWeBuild />
     </>
   );
 }

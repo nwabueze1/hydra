@@ -1,0 +1,48 @@
+.container {
+  background-image: url(/images/curve1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  //   height: 200px;
+}
+
+.ellipse_container {
+  width: 198px;
+  height: 198px;
+  background: rgba(13, 13, 13, 0.32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.inner_ellipse {
+  width: 159px;
+  height: 159px;
+  background: linear-gradient(251.27deg, #c0b7e8 12.87%, #8176af 89.33%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.inner_ellipse h6 {
+  color: #343045;
+  font-size: 6.4rem;
+  font-weight: 700;
+}
+
+.heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: white;
+  line-height: 29.26px;
+}
+
+.heading::before {
+  content: span;
+  background-image: url(/images/Arrow.svg);
+  display: inline-block;
+  margin-right: 10px;
+  width: 200px;
+}
