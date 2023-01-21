@@ -1,0 +1,24 @@
+.button {
+  outline: none;
+  padding: 1.7rem 3.4rem;
+  border: none;
+  display: inline-block;
+  color: white;
+  border-radius: 4rem;
+  background: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button__outlined {
+  border: 1px solid white;
+}
+
+.button__contained {
+  border: none;
+  color: #373163;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}

@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+  // grid-template-columns: 1fr;
+  // justify-content: center;
+  // align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 840px) {
+  .box {
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
+  }
+}
